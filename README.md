@@ -1,6 +1,6 @@
 # Projet 5 du parcours Développeur Web d'OpenClassrooms : Construire un site e-commerce.
 
-Compétences évaluées : 
+Compétences évaluées :
 
 - Créer un plan de test pour une application
 - Gérer des événements JavaScript
@@ -19,7 +19,7 @@ Vos compétences en développement web et votre personnalité ont plu à Paul, l
 Dans un premier temps, Paul souhaite créer un premier MVP pour démontrer le fonctionnement de ses applications à ses investisseurs.
 L’équipe est constituée de Jeanne, développeuse back-end travaillant sur les API et vous, pour la partie front-end.
 
-À votre arrivée, vous trouvez un mail de Paul dans votre boîte mail : 
+À votre arrivée, vous trouvez un mail de Paul dans votre boîte mail :
 "Objet : Bienvenue !
 
 Bonjour et bienvenue chez Orinoco ! J’espère que tu te plairas parmi nous. J’ai vraiment hâte de montrer ce MVP aux investisseurs. Il faut qu’on les rassure car ils misent sur nous. :)
@@ -35,13 +35,6 @@ Fondateur de Orinoco"
 
 Vous gardez en tête toutes ces informations et attaquez le développement immédiatement.
 
-# Précisions BackEnd
+# Précision BackEnd
 
-This is the back end server for Project 5 of the Junior Web Developer path.
-
-# Prerequisites
-You will need to have Node and npm installed locally on your machine.
-
-# Installation
-Clone this repo. From within the project folder, run npm install. You can then run the server with node server. The server should run on localhost with default port 3000. If the server runs on another port for any reason, this is printed to the console when the server starts, e.g. Listening on port 3001.
-
+Afin que le tout fonctionne correctement, rendez-vous sur ce dépôt (dépôt du backend) : https://github.com/OpenClassrooms-Student-Center/JWDP5 et suivez les indications du README.
