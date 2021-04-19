@@ -37,4 +37,4 @@ Vous gardez en tête toutes ces informations et attaquez le développement immé
 
 # Précision BackEnd
 
-Afin que le tout fonctionne correctement, rendez-vous sur ce dépôt (dépôt du backend) et suivez les indications du README.
+Afin que le tout fonctionne correctement, rendez-vous sur ce dépôt (dépôt du backend) : https://github.com/OpenClassrooms-Student-Center/JWDP5 et suivez les indications du README.
