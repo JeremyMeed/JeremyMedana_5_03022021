@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <title>Orinoco - Produits</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="img/logo_orinoco.png" class="logo" alt="Logo Orinoco"></a>
+            <nav>
+                <ul class="nav-list">
+                    <li class="list"><a href="index.html">Accueil</a></li>
+                    <li class="list"><a href="cart.html">Panier</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="section" id="cart">
+                <h2 class="h2-title">
+                    Votre panier
+                    <span id="cart__quantity">0</span>
+                </h2>
+                <div id="cart__list">
+                </div>
+            </section>
+
+            <section class="section" id="form">
+                <h2 class=h2-title>Coordonnées de livraison</h2>
+                <form id="contact__form" name="contact__form" method="POST">
+                    <div class="div-form">
+                        <div class="div-input">
+                            <label for="lastName" class="form-label">Nom</label>
+                            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Ex : Dupont" value="" required>
+                        </div>
+
+                        <div class="div-input">
+                            <label for="firstName" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Ex : Martin" value="" required>
+                        </div>
+
+                        <div class="div-input">
+                            <label for="address" class="form-label">Adresse</label>
+                            <input type="text" class="form-control" name="address" id="address" placeholder="Ex : 1 rue de Paris" value="" required>
+                        </div>
+
+                        <div class="div-input">
+                            <label for="city" class="form-label">Ville</label>
+                            <input type="text" class="form-control" name="city" id="city" placeholder="Ex : Paris" value="" required>
+                        </div>
+
+                        <div class="div-input">
+                            <label for="email" class="form-label">E-mail </label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Ex : martindupont@email.com" value="" required>
+                        </div>
+                    </div>
+                    <button id="btn__form" type="submit">Valider ma commande</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <ul class="footer-list">
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Assistance</a></li>
+                <li><a href="#">Protection des données</a></li>
+            </ul>
+        </footer>
+
+        <script src="cart.js"></script>
+    </body>
+</html>

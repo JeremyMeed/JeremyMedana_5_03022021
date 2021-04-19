@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Commande</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo_orinoco.png" class="logo" alt="Logo Orinoco"></a>
+        <nav>
+            <ul class="nav-list">
+                <li class="list"><a href="index.html">Accueil</a></li>
+                <li class="list"><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="order">
+            <h2>Confirmation de votre commande</h2>
+            <p>Nous vous remercions pour votre commande.</p>
+            <p>Le prix total de vos achats est de <span id="total"></span> euros.</p>
+            <p>Votre commande n°<span id="order_id"></span> est en cours de préparation et sera expédiée dans les meilleurs délais.</p>
+            <p>À bientôt sur Orinoco !</p>
+            <button id="btn__return">Retour à l'accueil</button>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="footer-list">
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Assistance</a></li>
+            <li><a href="#">Protection des données</a></li>
+        </ul>
+    </footer>
+    
+    <script src="order.js"></script>
+</body>
+</html>
