@@ -35,19 +35,6 @@ Fondateur de Orinoco"
 
 Vous gardez en tête toutes ces informations et attaquez le développement immédiatement.
 
-<<<<<<< HEAD
 # Précision BackEnd
 
 Afin que le tout fonctionne correctement, rendez-vous sur ce dépôt (dépôt du backend) et suivez les indications du README.
-=======
-# Précisions BackEnd
-
-This is the back end server for Project 5 of the Junior Web Developer path.
-
-# Prerequisites
-You will need to have Node and npm installed locally on your machine.
-
-# Installation
-Clone this repo. From within the project folder, run npm install. You can then run the server with node server. The server should run on localhost with default port 3000. If the server runs on another port for any reason, this is printed to the console when the server starts, e.g. Listening on port 3001.
-
->>>>>>> 5fb094252e2947c6f6e45e12999e3919a82a0b0c
