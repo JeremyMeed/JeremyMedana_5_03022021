@@ -184,8 +184,12 @@ function displayCart(nounours) {
 }
 
 async function productsInCart() {
-  await fetch("http://localhost:3000/api/teddies")
-    .then((response) => response.json())
-    .then((nounours) => displayCart(nounours));
+  try {
+    await fetch("http://localhost:3000/api/teddies")
+      .then((response) => response.json())
+      .then((nounours) => displayCart(nounours));
+  } catch (err) {
+    alert("Erreur du serveur, veuillez réessayer ultérieurement.");
+  }
 }
 productsInCart();

@@ -34,8 +34,12 @@ function fillProductsList(nounours) {
 }
 
 async function fillProducts() {
-  await fetch("http://localhost:3000/api/teddies") // will return info, but in wrong format
-    .then((response) => response.json()) // will return info, in json format
-    .then((nounours) => fillProductsList(nounours)); // main code here, using json info
+  try {
+    await fetch("http://localhost:3000/api/teddies") // will return info, but in wrong format
+      .then((response) => response.json()) // will return info, in json format
+      .then((nounours) => fillProductsList(nounours)); // main code here, using json info
+  } catch (err) {
+    alert("Erreur du serveur, veuillez réessayer ultérieurement.");
+  }
 }
 fillProducts();
