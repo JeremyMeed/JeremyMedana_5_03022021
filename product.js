@@ -97,8 +97,12 @@ function displayProduct(nounours) {
 }
 
 async function fillProductView() {
-  await fetch("http://localhost:3000/api/teddies/" + idProduct)
-    .then((response) => response.json()) // will return info, in json format
-    .then((nounours) => displayProduct(nounours)); // main code here, using json info
+  try {
+    await fetch("http://localhost:3000/api/teddies/" + idProduct)
+      .then((response) => response.json()) // will return info, in json format
+      .then((nounours) => displayProduct(nounours)); // main code here, using json info
+  } catch (err) {
+    alert("Erreur du serveur, veuillez réessayer ultérieurement.");
+  }
 }
 fillProductView();
